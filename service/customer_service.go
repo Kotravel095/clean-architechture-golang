@@ -54,5 +54,6 @@ func (s customerService) GetCustomer(id int) (*CustomerResponse, error) {
 		Status: customer.Status,
 	}
 	return &custResponse, nil
+	
 }
 
